@@ -41,3 +41,11 @@ Event_Driven_Congestion_*.ipynb
 *.zip
 submission_manifest.txt
 
+# Pitch deck screenshots exclusions
+presentation_assets/Screenshot (1199).png
+presentation_assets/Screenshot (1200).png
+presentation_assets/Screenshot (1201).png
+presentation_assets/Screenshot (1203).png
+presentation_assets/Screenshot (1204).png
+
+
