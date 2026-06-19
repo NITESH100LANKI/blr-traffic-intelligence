@@ -38,3 +38,6 @@ presentation_assets/submission_checklist.txt
 # Scratch and duplicate notebook files
 scratch_*
 Event_Driven_Congestion_*.ipynb
+*.zip
+submission_manifest.txt
+
