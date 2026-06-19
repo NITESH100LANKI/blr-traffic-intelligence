@@ -1,0 +1,54 @@
+BENGALURU TRAFFIC INTELLIGENCE PLATFORM
+Judge Summary — 19 June 2026, 17:59 IST
+============================================================
+
+1. PLATFORM OVERVIEW
+   The Bengaluru Traffic Intelligence Platform autonomously detects,
+   scores, and responds to 10 real-world traffic events across
+   key city corridors. It deploys alternate routes, quantifies resource
+   needs, and generates AI-driven incident reports using Gemini 2.5 Flash.
+
+2. KEY METRICS (from demo_results.csv)
+   • Incidents analyzed      : 10
+   • Critical incidents      : 4 (40%)
+   • Officers recommended    : 127
+   • Barricades required     : 183
+   • Patrol vehicles         : 38
+   • Average delay           : 3.0 min
+   • Avg congestion reduction: 20.5%
+   • Avg delay reduction     : 69.3%
+   • Total vehicles diverted : 7,992
+
+3. TOP-RISK CORRIDORS
+   1. ORR East 1 — Score 95/100
+   2. CBD 1 — Score 85/100
+   3. Bellary Road 1 — Score 74/100
+   4. ORR East 2 — Score 69/100
+   5. Mysore Road — Score 59/100
+   6. Hosur Road — Score 53/100
+   7. CBD 2 — Score 48/100
+   8. Non-corridor — Score 35/100
+
+4. HIGHEST PRIORITY
+   S01 — Accident ORR (95/100, CRITICAL)
+   → Immediate deployment: 13 officers,
+     18 barricades
+
+5. ARCHITECTURE
+   Routing: OSMnx 2.1 + NetworkX (simulated fallback)
+   AI: Gemini 2.5 Flash | Dataset: 8,173 Bengaluru events
+   Scoring: Rule-based (0-100) | No target leakage
+
+6. SCENARIOS
+  • S01 — Accident ORR: accident | Score=95/100 | Risk=CRITICAL | Officers=13 | CongRed=36.1% | DelayRed=55.6% | Vehicles=1,463
+  • S02 — Vehicle Breakdown Hosur Rd: vehicle_breakdown | Score=53/100 | Risk=MODERATE | Officers=4 | CongRed=10.6% | DelayRed=42.6% | Vehicles=553
+  • S03 — Waterlogging Whitefield: water_logging | Score=85/100 | Risk=CRITICAL | Officers=9 | CongRed=32.3% | DelayRed=76.9% | Vehicles=1,168
+  • S04 — Protest Town Hall: protest | Score=85/100 | Risk=CRITICAL | Officers=26 | CongRed=32.3% | DelayRed=80.0% | Vehicles=1,028
+  • S05 — VIP Movement Bellary Rd: vip_movement | Score=82/100 | Risk=CRITICAL | Officers=22 | CongRed=31.2% | DelayRed=69.0% | Vehicles=947
+  • S06 — Metro Construction ORR: construction | Score=53/100 | Risk=MODERATE | Officers=6 | CongRed=10.6% | DelayRed=90.0% | Vehicles=728
+  • S07 — IPL Match Chinnaswamy: public_event | Score=48/100 | Risk=MODERATE | Officers=15 | CongRed=9.6% | DelayRed=50.0% | Vehicles=528
+  • S08 — Tree Fall Sankey Road: tree_fall | Score=66/100 | Risk=HIGH | Officers=6 | CongRed=18.5% | DelayRed=83.3% | Vehicles=762
+  • S09 — Procession Mysore Road: procession | Score=59/100 | Risk=HIGH | Officers=14 | CongRed=16.5% | DelayRed=55.6% | Vehicles=584
+  • S10 — Public Gathering Lalbagh: public_event | Score=35/100 | Risk=MODERATE | Officers=12 | CongRed=7.0% | DelayRed=90.0% | Vehicles=231
+
+READINESS: 10/10

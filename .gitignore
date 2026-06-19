@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache directories
+cache/
+
+# Backups
+backups/
+
+# Local configuration and credentials
+.env
+.env.*
+secrets/
+*credentials*
+*token*
+*key*
+*keys*
+*api_key*
+*.key
+
+# Large data and temporary files
+*.graphml
+*anonymized*.csv
+large_temp_files/
+
+# Project-specific exclusions
+presentation_assets/traffic_dashboard_enhanced.html
+presentation_assets/traffic_dashboard_final.html
+presentation_assets/executive_report.html
+presentation_assets/submission_checklist.txt
+
+# Scratch and duplicate notebook files
+scratch_*
+Event_Driven_Congestion_*.ipynb

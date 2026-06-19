@@ -1,0 +1,129 @@
+scenario,event_cause,corridor,priority,hour,requires_road_closure,congestion_score,risk_level,severity_category,response_urgency,officers,barricades,patrol_vehicles,diversion_urgency,routing_engine,route_found,original_distance_km,alternate_distance_km,extra_distance_km,estimated_delay_minutes,diversion_recommendation,incident_report,public_advisory,ai_engine
+S01 — Accident ORR,accident,ORR East 1,High,8,True,95,CRITICAL,Gridlock,IMMEDIATE,13,18,4,IMMEDIATE — Activate alternate routes NOW,OSMnx+NetworkX (Multi-Route),True,22.37,21.8,0.8,3.6,[OSMnx Multi-Route] Recommended: ⚡ Fastest Route +1.37km (~31.8min). Congestion=0/100.,"BENGALURU TRAFFIC POLICE — INCIDENT REPORT
+Date/Time  : 18 June 2026, 11:51 IST
+Incident   : Accident at Marathahalli Junction, ORR
+Risk Level : CRITICAL (Score: 95/100)
+
+RESOURCES: Officers=13 | Barricades=18 | Vehicles=4
+ROUTING  : Original=22.37km → Alternate=21.80km (+0.80km, ~3.6min)
+ACTION   :","🚦 TRAFFIC ADVISORY — BENGALURU TRAFFIC POLICE
+⚠️  Accident at Marathahalli Junction, ORR
+Risk: CRITICAL | Delay: ~3.6 min
+🔁 [OSMnx] Alternate +4.54km (~11.1min). Officers at upstream junction.
+✅ Avoid area for 25min | Follow officer directions | Call 100/112
+⏰ 18 Jun 2026 11:51 IST
+",fallback-template
+S02 — Vehicle Breakdown Hosur Rd,vehicle_breakdown,Hosur Road,High,18,False,53,MODERATE,Moderate,STANDARD,4,8,2,MODERATE — Prepare alternate routes,OSMnx+NetworkX (Multi-Route),True,10.61,11.39,1.36,4.7,[OSMnx Multi-Route] Recommended: ⚡ Fastest Route +0.58km (~12.7min). Congestion=9/100.,"BENGALURU TRAFFIC POLICE — INCIDENT REPORT
+Date/Time  : 18 June 2026, 11:51 IST
+Incident   : Vehicle Breakdown at Hosur Road, Vivekananda Circle, Bommanahalli
+Risk Level : MODERATE (Score: 53/100)
+
+RESOURCES: Officers=4 | Barricades=8 | Vehicles=2
+ROUTING  : Original=13.25km → Alternate=15.24km (+1.","🚦 TRAFFIC ADVISORY — BENGALURU TRAFFIC POLICE
+⚠️  Vehicle Breakdown at Hosur Road, Vivekananda Circle, Bommanahalli
+Risk: MODERATE | Delay: ~4.7 min
+🔁 [OSMnx] Alternate +3.70km (~9.4min). Officers at upstream junction.
+✅ Avoid area for 24min | Follow officer directions | Call 100/112
+⏰ 18 Jun 20",fallback-template
+S03 — Waterlogging Whitefield,water_logging,ORR East 2,High,7,True,85,CRITICAL,Gridlock,IMMEDIATE,9,13,2,IMMEDIATE — Activate alternate routes NOW,OSMnx+NetworkX (Multi-Route),True,14.41,11.47,0.28,2.6,[OSMnx Multi-Route] Recommended: 🌿 Least Traffic Route +0.28km (~25.1min). Congestion=0/100.,"BENGALURU TRAFFIC POLICE — INCIDENT REPORT
+Date/Time  : 18 June 2026, 11:51 IST
+Incident   : Water Logging at Whitefield Road, ITI Underpass, Dooravani Nagar
+Risk Level : CRITICAL (Score: 85/100)
+
+RESOURCES: Officers=9 | Barricades=13 | Vehicles=2
+ROUTING  : Original=10.25km → Alternate=11.79km (+1.","🚦 TRAFFIC ADVISORY — BENGALURU TRAFFIC POLICE
+⚠️  Water Logging at Whitefield Road, ITI Underpass, Dooravani Nagar
+Risk: CRITICAL | Delay: ~2.6 min
+🔁 [OSMnx] Alternate +0.46km (~2.9min). Officers at upstream junction.
+✅ Avoid area for 23min | Follow officer directions | Call 100/112
+⏰ 18 Jun 202",fallback-template
+S04 — Protest Town Hall,protest,CBD 1,High,10,True,85,CRITICAL,Gridlock,IMMEDIATE,26,33,7,IMMEDIATE — Activate alternate routes NOW,OSMnx+NetworkX (Multi-Route),True,4.52,4.65,0.27,2.5,[OSMnx Multi-Route] Recommended: ⚖️ Balanced Route +0.13km (~8.2min). Congestion=5/100.,"BENGALURU TRAFFIC POLICE — INCIDENT REPORT
+Date/Time  : 18 June 2026, 11:51 IST
+Incident   : Protest at Town Hall, Ambedkar Veedhi, Cubbon Park
+Risk Level : CRITICAL (Score: 85/100)
+
+RESOURCES: Officers=26 | Barricades=33 | Vehicles=7
+ROUTING  : Original=4.52km → Alternate=4.65km (+0.27km, ~2.5min)
+","🚦 TRAFFIC ADVISORY — BENGALURU TRAFFIC POLICE
+⚠️  Protest at Town Hall, Ambedkar Veedhi, Cubbon Park
+Risk: CRITICAL | Delay: ~2.5 min
+🔁 [OSMnx] Alternate +0.56km (~3.1min). Officers at upstream junction.
+✅ Avoid area for 21min | Follow officer directions | Call 100/112
+⏰ 18 Jun 2026 11:51 IST
+",fallback-template
+S05 — VIP Movement Bellary Rd,vip_movement,Bellary Road 1,High,9,True,82,CRITICAL,Gridlock,IMMEDIATE,22,26,9,IMMEDIATE — Activate alternate routes NOW,OSMnx+NetworkX (Multi-Route),True,8.64,9.07,0.43,2.9,[OSMnx Multi-Route] Recommended: ⚡ Fastest Route +0.00km (~11.7min). Congestion=1/100.,"BENGALURU TRAFFIC POLICE — INCIDENT REPORT
+Date/Time  : 18 June 2026, 11:51 IST
+Incident   : Vip Movement at Bellary Road, Sadashiva Nagar to Hebbal
+Risk Level : CRITICAL (Score: 82/100)
+
+RESOURCES: Officers=22 | Barricades=26 | Vehicles=9
+ROUTING  : Original=8.58km → Alternate=9.87km (+1.29km, ~7.6","🚦 TRAFFIC ADVISORY — BENGALURU TRAFFIC POLICE
+⚠️  Vip Movement at Bellary Road, Sadashiva Nagar to Hebbal
+Risk: CRITICAL | Delay: ~2.9 min
+🔁 [OSMnx] Alternate +1.72km (~5.4min). Officers at upstream junction.
+✅ Avoid area for 22min | Follow officer directions | Call 100/112
+⏰ 18 Jun 2026 11:51 I",fallback-template
+S06 — Metro Construction ORR,construction,ORR East 2,High,7,False,53,MODERATE,Moderate,STANDARD,6,19,2,MODERATE — Prepare alternate routes,OSMnx+NetworkX (Multi-Route),True,5.37,4.36,0.08,2.2,[OSMnx Multi-Route] Recommended: ⚖️ Balanced Route +0.14km (~8.7min). Congestion=0/100.,"BENGALURU TRAFFIC POLICE — INCIDENT REPORT
+Date/Time  : 18 June 2026, 11:51 IST
+Incident   : Construction at Outer Ring Road, Karthik Nagar, Marathahalli
+Risk Level : MODERATE (Score: 53/100)
+
+RESOURCES: Officers=6 | Barricades=19 | Vehicles=2
+ROUTING  : Original=4.46km → Alternate=5.13km (+0.67km, ","🚦 TRAFFIC ADVISORY — BENGALURU TRAFFIC POLICE
+⚠️  Construction at Outer Ring Road, Karthik Nagar, Marathahalli
+Risk: MODERATE | Delay: ~2.2 min
+🔁 [OSMnx] Alternate +2.09km (~6.2min). Officers at upstream junction.
+✅ Avoid area for 21min | Follow officer directions | Call 100/112
+⏰ 18 Jun 2026 11",fallback-template
+S07 — IPL Match Chinnaswamy,public_event,CBD 2,High,17,False,48,MODERATE,Moderate,STANDARD,15,19,4,MODERATE — Prepare alternate routes,OSMnx+NetworkX (Multi-Route),True,4.06,4.54,0.98,4.0,[OSMnx Multi-Route] Recommended: ⚖️ Balanced Route +0.46km (~7.3min). Congestion=0/100.,"BENGALURU TRAFFIC POLICE — INCIDENT REPORT
+Date/Time  : 18 June 2026, 11:51 IST
+Incident   : Public Event at MG Road, Cubbon Park Area, Bengaluru
+Risk Level : MODERATE (Score: 48/100)
+
+RESOURCES: Officers=15 | Barricades=19 | Vehicles=4
+ROUTING  : Original=3.01km → Alternate=3.46km (+0.45km, ~5.9min","🚦 TRAFFIC ADVISORY — BENGALURU TRAFFIC POLICE
+⚠️  Public Event at MG Road, Cubbon Park Area, Bengaluru
+Risk: MODERATE | Delay: ~4.0 min
+🔁 [OSMnx] Alternate +0.91km (~3.8min). Officers at upstream junction.
+✅ Avoid area for 20min | Follow officer directions | Call 100/112
+⏰ 18 Jun 2026 11:51 IST
+",fallback-template
+S08 — Tree Fall Sankey Road,tree_fall,Bellary Road 1,Low,20,True,66,HIGH,Severe,URGENT,6,12,2,HIGH — Divert within 10 minutes,OSMnx+NetworkX (Multi-Route),True,4.87,4.42,0.19,2.4,[OSMnx Multi-Route] Recommended: ⚖️ Balanced Route +0.23km (~6.2min). Congestion=0/100.,"BENGALURU TRAFFIC POLICE — INCIDENT REPORT
+Date/Time  : 18 June 2026, 11:51 IST
+Incident   : Tree Fall at Sankey Road, Bashyam Circle, Sadashiva Nagar
+Risk Level : HIGH (Score: 66/100)
+
+RESOURCES: Officers=6 | Barricades=12 | Vehicles=2
+ROUTING  : Original=4.59km → Alternate=5.28km (+0.69km, ~6.4min","🚦 TRAFFIC ADVISORY — BENGALURU TRAFFIC POLICE
+⚠️  Tree Fall at Sankey Road, Bashyam Circle, Sadashiva Nagar
+Risk: HIGH | Delay: ~2.4 min
+🔁 [OSMnx] Alternate +0.38km (~2.8min). Officers at upstream junction.
+✅ Avoid area for 21min | Follow officer directions | Call 100/112
+⏰ 18 Jun 2026 11:51 IST",fallback-template
+S09 — Procession Mysore Road,procession,Mysore Road,High,6,True,59,HIGH,Severe,URGENT,14,20,3,HIGH — Divert within 10 minutes,OSMnx+NetworkX (Multi-Route),True,9.25,8.85,0.78,3.6,[OSMnx Multi-Route] Recommended: 🌿 Least Traffic Route +0.78km (~19.5min). Congestion=0/100.,"BENGALURU TRAFFIC POLICE — INCIDENT REPORT
+Date/Time  : 18 June 2026, 11:51 IST
+Incident   : Procession at Mysore Road, Nayandahalli Junction
+Risk Level : HIGH (Score: 59/100)
+
+RESOURCES: Officers=14 | Barricades=20 | Vehicles=3
+ROUTING  : Original=9.25km → Alternate=8.85km (+0.78km, ~3.6min)
+ACTION","🚦 TRAFFIC ADVISORY — BENGALURU TRAFFIC POLICE
+⚠️  Procession at Mysore Road, Nayandahalli Junction
+Risk: HIGH | Delay: ~3.6 min
+🔁 [OSMnx] Alternate +0.78km (~3.6min). Officers at upstream junction.
+✅ Avoid area for 22min | Follow officer directions | Call 100/112
+⏰ 18 Jun 2026 11:51 IST
+",fallback-template
+S10 — Public Gathering Lalbagh,public_event,Non-corridor,Medium,8,False,35,MODERATE,Moderate,STANDARD,12,15,3,MODERATE — Prepare alternate routes,OSMnx+NetworkX (Multi-Route),True,5.1,4.98,0.0,2.0,[OSMnx Multi-Route] Recommended: ⚖️ Balanced Route +0.10km (~8.0min). Congestion=0/100.,"BENGALURU TRAFFIC POLICE — INCIDENT REPORT
+Date/Time  : 18 June 2026, 11:51 IST
+Incident   : Public Event at Lalbagh Botanical Garden, V V Puram
+Risk Level : MODERATE (Score: 35/100)
+
+RESOURCES: Officers=12 | Barricades=15 | Vehicles=3
+ROUTING  : Original=5.10km → Alternate=4.98km (+0.00km, ~2.0min)","🚦 TRAFFIC ADVISORY — BENGALURU TRAFFIC POLICE
+⚠️  Public Event at Lalbagh Botanical Garden, V V Puram
+Risk: MODERATE | Delay: ~2.0 min
+🔁 [OSMnx] Alternate +0.50km (~3.0min). Officers at upstream junction.
+✅ Avoid area for 21min | Follow officer directions | Call 100/112
+⏰ 18 Jun 2026 11:51 IST
+",fallback-template
